@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&family=Inter:wght@300;400&family=Montserrat:wght@400;500&family=Rubik&family=Sora&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .tabactive{
+        @apply text-[#387DAE] underline underline-offset-8 decoration-4 decoration-[#387DAE] 
+
+    }
+    .boxshadow{
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.14);
+    }
+    .generate-btn{
+        box-shadow: 3px 5px 3px rgba(71, 110, 131, 0.52);
+        @apply bg-gradient-to-b from-[#70b6ef] to-[#186aa4] border-0 normal-case
+
+    }
+    .photomagic-tab-active{
+        @apply  px-6 cursor-pointer rounded-full bg-[#C2E8AA] 
+    }
+    .photomagic-tab{
+        @apply  px-6 cursor-pointer rounded-full bg-[#FAFAFA] 
+    }
+    .modal-wrapper{
+        @apply inset-0 bg-black bg-opacity-80 w-full h-full fixed top-0 left-0 
+    }
+    .modall{
+        @apply bg-white max-w-md  mx-auto  px-7 rounded-xl py-5 mt-[15%] 
+    }
+    
+}
